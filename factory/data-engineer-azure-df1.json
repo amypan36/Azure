@@ -1,0 +1,9 @@
+{
+	"name": "data-engineer-azure-df1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9b0a4052-70d5-4d4f-8ff5-1f3ba1ebea50",
+		"tenantId": "e17ced16-fbe3-4e28-b06e-acbb76e8d57d"
+	}
+}
