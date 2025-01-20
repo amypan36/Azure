@@ -8,10 +8,10 @@
 			"server": "LAPTOP-2CSOJD52\\SQLEXPRESS",
 			"database": "AdventureWorksLT2017",
 			"encrypt": "mandatory",
-			"trustServerCertificate": false,
+			"trustServerCertificate": true,
 			"authenticationType": "Windows",
-			"userName": "chen",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjYTczZWRlNS0zODgyLTRhMTktYWE2Yi0yZGFkMTQ1ZDgxOWUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"userName": "LAPTOP-2CSOJD52\\chenp",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxNWJjODZhYy0xODJhLTQ1NGUtOGU3Zi0wMDU3YmVhYWEzZTciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "integrationRuntime1",
