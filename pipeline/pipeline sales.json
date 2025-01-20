@@ -21,9 +21,13 @@
 						"partitionOption": "None"
 					},
 					"sink": {
-						"type": "SqlServerSink",
-						"writeBehavior": "insert",
-						"sqlWriterUseTableLock": false
+						"type": "ParquetSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "ParquetWriteSettings"
+						}
 					},
 					"enableStaging": false,
 					"translator": {
@@ -43,7 +47,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "Address",
+						"referenceName": "address_parquet",
 						"type": "DatasetReference"
 					}
 				]
